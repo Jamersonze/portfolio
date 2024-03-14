@@ -18,7 +18,7 @@ type UserData = {
         skills: Skill[],
         awards: Award[],
         experience: Award[],
-        credentials?: Award[]
+        credentials: Award[]
 }
 
 const FeatureList = (

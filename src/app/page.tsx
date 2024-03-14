@@ -20,7 +20,7 @@ export default function HomePage() {
                   exit='hidden'
                   className="h1"
                 >
-                  Jamerson Souza's<br />
+                  Jamerson Souza{"'"}s<br />
                   <span className="text-accent">Portfolio</span>
                 </motion.h1>
                 <motion.p 

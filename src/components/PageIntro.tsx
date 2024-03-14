@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../variants'
 
-export default (
+const PageIntro = (
         {title, titleHighlight, description}: 
         {title: string, titleHighlight?: string, description?: string}
 ) => 
@@ -26,3 +26,5 @@ export default (
                 {description}
         </motion.p>
 </section>
+
+export default PageIntro

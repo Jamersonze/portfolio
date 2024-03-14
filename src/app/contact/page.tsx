@@ -1,7 +1,7 @@
 import ContactForm from "@/components/ContactForm";
 import PageIntro from "@/components/PageIntro";
 
-export default () => 
+const Contact = () => 
 <main className="h-full bg-primary/30 py-36 flex items-center">
         <article className="container mx-auto">
                 <section className='flex flex-col items-center gap-x-8'>
@@ -10,3 +10,5 @@ export default () =>
                 </section>
         </article>
 </main>
+
+export default Contact

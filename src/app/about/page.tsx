@@ -31,12 +31,12 @@ const aboutData = {
     {
       title: 'Tecnologias',
       icons: [
-        <FaHtml5 />,
-        <FaCss3 />,
-        <FaJs />,
-        <FaReact />,
-        <SiNextdotjs />,
-        <SiFramer />
+        <FaHtml5 key={0} />,
+        <FaCss3 key={0} />,
+        <FaJs key={0} />,
+        <FaReact key={0} />,
+        <SiNextdotjs key={0} />,
+        <SiFramer key={0} />
       ]
     }
   ],
@@ -59,7 +59,8 @@ const aboutData = {
       title: 'Software Engineer Intern - Liferay LATAM',
       stage: '2021 - 2023'
     }
-  ]
+  ],
+  credentials: []
 };
 
 const About = () => {

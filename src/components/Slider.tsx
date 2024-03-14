@@ -31,7 +31,7 @@ type Work = {
         icon?: undefined
 }
 
-export default ({data} : {data: Service[] | Work[]}) => {
+const Slider = ({data} : {data: Service[] | Work[]}) => {
         return (
                 <Swiper
                         breakpoints={{
@@ -83,3 +83,5 @@ export default ({data} : {data: Service[] | Work[]}) => {
                 </Swiper>
         )
 }
+
+export default Slider

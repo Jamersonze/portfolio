@@ -38,7 +38,7 @@ const serviceData = [
         }
 ]
 
-export default () => 
+const Services = () => 
 <main className='h-full bg-primary/30 py-36 flex items-center'>
         <Circles />
         <article className="container mx-auto">
@@ -57,3 +57,5 @@ export default () =>
         </article>
         <Bulb/>
 </main>
+
+export default Services
