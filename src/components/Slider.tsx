@@ -33,7 +33,10 @@ type Work = {
 
 type Article = {
         title: string,
-        description: string
+        description: string,
+        icon?: undefined,
+        image?: undefined,
+        links?: undefined
 }
 
 const Slider = ({data} : {data: Service[] | Work[] | Article[]}) => {
