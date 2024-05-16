@@ -31,7 +31,12 @@ type Work = {
         icon?: undefined
 }
 
-const Slider = ({data} : {data: Service[] | Work[]}) => {
+type Article = {
+        title: string,
+        description: string
+}
+
+const Slider = ({data} : {data: Service[] | Work[] | Article[]}) => {
         return (
                 <Swiper
                         breakpoints={{
